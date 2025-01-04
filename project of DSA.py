@@ -4,11 +4,11 @@ import time
 def get_traffic_data():
     # Predefined traffic data
     traffic_data = [
-        {"ip": "192.168.1.1", "timestamp": 1609459200},  # Request 1
-        {"ip": "192.168.1.1", "timestamp": 1609459210},  # Request 2
-        {"ip": "192.168.1.1", "timestamp": 1609459220},  # Request 3
-        {"ip": "192.168.1.1", "timestamp": 1609459230},  # Request 4
-        {"ip": "192.168.1.1", "timestamp": 1609459240},  # Request 5
+        {"ip": "192.168.1.1", "timestamp": 1609459200},  
+        {"ip": "192.168.1.1", "timestamp": 1609459210},  
+        {"ip": "192.168.1.1", "timestamp": 1609459220},  
+        {"ip": "192.168.1.1", "timestamp": 1609459230},  
+        {"ip": "192.168.1.1", "timestamp": 1609459240},  
     ]
     
     print("Initial traffic data: ", traffic_data)
